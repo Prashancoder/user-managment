@@ -1,0 +1,52 @@
+/* modal.css */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.788); /* semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* ensure modal is on top */
+}
+
+.modal-content {
+    background-color: #00897b; /* Match the green from the table */
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px; /* fixed width for modals */
+    box-shadow: 0 2px 10px rgba(32, 30, 30, 0.3);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h2 {
+    margin: 0;
+}
+
+.close-button {
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background: transparent;
+}
+
+.modal-body {
+    margin: 20px 0;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-footer button {
+    margin-left: 10px;
+}
